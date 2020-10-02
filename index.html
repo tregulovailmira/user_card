@@ -2,52 +2,73 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Title</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="userCardsContainer">
-        <div class="userCardWrapper">
-            <div class="userCardHeader">
-                <div class="imgWrapper">
+    <div class="userCardsContainer displayFlex">
+        <div class="userCard">
+            <div class="userCardHeader displayFlex">
+                <div class="userPhotoWrapper">
                     <img src="https://images.theconversation.com/files/350865/original/file-20200803-24-50u91u.jpg?ixlib=rb-1.1.0&rect=37%2C29%2C4955%2C3293&q=45&auto=format&w=926&fit=clip"
                          alt="user icon">
                 </div>
-                <div class="position">Film Director, Producer</div>
-                <div class="salary">&euro;14/hour</div>
+                <div class="favoritesIconWrapper notAddedToFavorite">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -2 24 24" width="20"><path d="M0 0h24v24H0z" fill="none"/><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </div>
+                <h1>film director, producer</h1>
+                <p>&euro;14/hour</p>
             </div>
-            <div class="userCardBody">
-                <div class="fullNameAndAge">Jeffrey Abrams, 51</div>
-                <div class="location">New York, United States</div>
-                <div class="description">Abrams was born in New York City and raised in Los Angeles.</div>
+            <div class="userCardBody displayFlex">
+                <h2>Jeffrey Abrams, 51</h2>
+                <div class="location displayFlex">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="15" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                    </div>
+                    New York, United States</div>
+                <p class="description">Abrams was born in New York City and raised in Los Angeles.</p>
+                <div class="controlsWrapper displayFlex">
+                    <button>view cv</button>
+                    <button>make offer</button>
+                </div>
+                <div class="status displayFlex">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="10" viewBox="0 0 24 24" width="10"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/></svg>
+                    Online
+                </div>
+
             </div>
-            <div class="controlsWrapper">
-                <button>view cv</button>
-                <button>make offer</button>
-            </div>
-            <div class="status">online</div>
         </div>
 
-        <div class="userCardWrapper">
-            <div class="userCardHeader">
-                <div class="imgWrapper">
-                    <img src="https://images.theconversation.com/files/350865/original/file-20200803-24-50u91u.jpg?ixlib=rb-1.1.0&rect=37%2C29%2C4955%2C3293&q=45&auto=format&w=926&fit=clip"
+        <div class="userCard">
+            <div class="userCardHeader displayFlex">
+                <div class="userPhotoWrapper">
+                    <img src="https://www.generationsforpeace.org/wp-content/uploads/2018/03/empty.jpg"
                          alt="user icon">
                 </div>
-                <div class="position">Film Director, Producer</div>
-                <div class="salary">&euro;14/hour</div>
+                <div class="favoritesIconWrapper addedToFavorite">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -2 24 24" width="20"><path d="M0 0h24v24H0z" fill="none"/><path d="M0 0h24v24H0z" fill="none"/><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </div>
+                <h1>actor, film director</h1>
+                <p>&euro;9/hour</p>
             </div>
-            <div class="userCardBody">
-                <div class="fullNameAndAge">Jeffrey Abrams, 51</div>
-                <div class="location">New York, United States</div>
-                <div class="description">Abrams was born in New York City and raised in Los Angeles.</div>
+            <div class="userCardBody displayFlex">
+                <h2>Baltasar Korma&#x301;kur, 52</h2>
+                <div class="location displayFlex">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="15" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                    </div>
+                    Reykjavik, Iceland
+                </div>
+                <p class="description">Icelandic actor, theater and film director, and film producer.</p>
+                <div class="controlsWrapper displayFlex">
+                    <button>view cv</button>
+                    <button>make offer</button>
+                </div>
+                <div class="status displayFlex">Last seen 17 minutes ago</div>
             </div>
-            <div class="controlsWrapper">
-                <button>view cv</button>
-                <button>make offer</button>
-            </div>
-            <div class="status">online</div>
         </div>
     </div>
 </body>
